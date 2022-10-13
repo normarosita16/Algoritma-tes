@@ -18,6 +18,7 @@ const CountQuery = (args_input, args_query) => {
       }
     }
     counter.push(samecount);
+    samecount = 0;
   }
 
   return counter;
